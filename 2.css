@@ -70,7 +70,7 @@ p{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #000000;
+    color: #fefefe;
      font-family: "Cinzel", serif;
 }
 
@@ -111,12 +111,12 @@ p{
 .product-name {
     font-size: 1.2rem;
     margin: 10px 0;
-    color: #000;
+    color: #ff0000;
 }
 
 .product-need {
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .product-price {
@@ -166,6 +166,7 @@ p{
     color: white;
     font-size: 5rem;
 }
+
 
 /* Footer */
 footer {
