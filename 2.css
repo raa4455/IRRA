@@ -308,6 +308,7 @@ h1{
 
 }
 
+
 /* Container to align logo and title */
 .container1 {
     display: flex;
@@ -393,4 +394,54 @@ h1{
     .product-grid {
         grid-template-columns: 1fr; /* 1 Column on Small Screens */
     }
+}
+
+.container11 {
+    /* max-width: 600px; */
+    margin: auto;
+    padding: 60px;
+    background-color: #ebf4fd;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    padding-top: 5px;
+}
+h4 {
+    font-size: 20;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.subscription-packages {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 130px;
+}
+.item {
+    width: 100px;
+    text-align: center;
+}
+.item img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    /* margin-bottom: auto; */
+}
+.button {
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    /* width: 100px;
+    height: 50px; */
+    ;
+}
+.sizee{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 110px;
+    margin-top: 100px;
 }
